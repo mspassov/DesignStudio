@@ -5,6 +5,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(231, 231, 231);
+  position: relative;
 }
 
 .container {
@@ -176,13 +177,36 @@ footer {
 .articleCol {
   float: left;
   width: 60%;
-  margin-top: 15px;
+  margin-top: 25px;
   padding: 0 10px;
   margin-right: 9px;
+  margin-bottom: 10rem;
 }
 
 .dark {
   background: #907ad6;
   padding: 0 15px;
-  margin-top: 10px;
+  margin-top: 25px;
+}
+
+.services li {
+  border: 1px solid grey;
+  padding: 15px;
+  margin-bottom: 10px;
+  background: #dabfff;
+}
+
+.quote input,
+.quote textarea {
+  width: 95%;
+  padding: 5px;
+  margin: 5px 0;
+}
+
+.contactB {
+  margin-bottom: 10px;
+}
+
+.contactB:hover {
+  background: #2c2a4a;
 }
