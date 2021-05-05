@@ -65,3 +65,124 @@ nav a:hover {
   color: #7fdeff;
   font-weight: bold;
 }
+
+.showcase {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url(showcase.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.showcase h1 {
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.showcase p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.heroText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modern {
+  color: #907ad6;
+}
+
+.newsletter {
+  background: #2c2a4a;
+  color: white;
+}
+
+.newsletter h1 {
+  float: left;
+}
+
+.newsletter form {
+  float: right;
+  margin-top: 1.3rem;
+}
+
+.newsletter input {
+  padding: 5px;
+  width: 17rem;
+  height: 1.3rem;
+}
+
+.newsletterButton {
+  background: #7fdeff;
+  border: none;
+  height: 2.1rem;
+  padding: 0 1.5rem;
+  margin-left: 0.2rem;
+}
+
+.newsletterButton:hover {
+  background: #907ad6;
+  color: white;
+}
+
+.boxes {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.box {
+  text-align: center;
+}
+
+.box img {
+  width: 7rem;
+}
+
+.box h3 {
+  margin: 0.6rem 0;
+  color: #2c2a4a;
+}
+
+.box p {
+  padding: 0 0.5rem;
+  margin-top: 0;
+}
+
+footer {
+  padding: 0.8rem;
+  background: #7fdeff;
+  text-align: center;
+}
+
+.sidebar {
+  float: right;
+  width: 30%;
+  padding-left: 10px;
+}
+
+.articleCol {
+  float: left;
+  width: 60%;
+  margin-top: 15px;
+  padding: 0 10px;
+  margin-right: 9px;
+}
+
+.dark {
+  background: #907ad6;
+  padding: 0 15px;
+  margin-top: 10px;
+}
