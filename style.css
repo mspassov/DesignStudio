@@ -210,3 +210,75 @@ footer {
 .contactB:hover {
   background: #2c2a4a;
 }
+
+/*Media Queries*/
+@media (max-width: 990px) {
+    .newsletter h1, .newsletter form{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+  
+    .newsletterButton{
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 768px) {
+  .branding,
+  nav,
+  nav li {
+    float: none;
+    text-align: center;
+    width: 100%;
+    margin-left: -20px;
+    padding: 0 20px;
+  }
+  header{
+      padding-bottom: 20px;
+  }
+
+  .grid-3{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+
+  .articleCol{
+      float: none;
+      text-align: center;
+      width: 100%;
+      margin-bottom: 0;
+  }
+
+  .sidebar{
+      float: none;
+      text-align: center;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+  }
+
+  .sidebar h3{
+      padding: 10px 0;
+      margin: 0;
+  }
+
+  .sidebar p{
+      margin-top: 0;
+      padding: 0 10px 20px 10px;
+  }
+
+  .quote input, .quote textarea{
+      width: 80%;
+  }
+
+  .quote button{
+    width: 80%;
+  }
+
+  .quote{
+      margin-bottom: 10px;
+  }
+
+}
